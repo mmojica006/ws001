@@ -4,7 +4,7 @@ class EnlacesModels{
 
     public function enlacesModel($enlaces){
     if ($enlaces == "dashboard" ||
-        $enlaces == "bienvenidos" ||
+        $enlaces == "inicio" ||
         $enlaces == "acerca" ||
         $enlaces == "anuncios" ||
         $enlaces == "testimonios" ||

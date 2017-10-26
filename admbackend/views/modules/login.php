@@ -1,3 +1,11 @@
+
+<?php
+
+$ingreso = new Ingreso();
+$ingreso->ingresoController();
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,11 +89,4 @@
 
 </body>
 </html>
-
-<?php
-
-        $ingreso = new Ingreso();
-       // $ingreso->ingresoController();
-
-?>
 

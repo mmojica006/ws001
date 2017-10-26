@@ -1,0 +1,5 @@
+#backIngreso{
+    position:relative;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,150,1), rgba(0,100,200,1));
+}

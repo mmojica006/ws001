@@ -1,3 +1,7 @@
+<?php
+$ingreso = new Ingreso();
+$ingreso->ingresoController();
+?>
 <div class="login-box">
     <div class="login-logo">
         <a href="#"><b>Admin</b>LTE</a>
@@ -34,12 +38,7 @@
         <!-- /.social-auth-links -->
 
         <a href="#">Recordar contraseña</a><br>
-        <?php
 
-        $ingreso = new Ingreso();
-        $ingreso->ingresoController();
-
-        ?>
 
     </div>
     <!-- /.login-box-body -->

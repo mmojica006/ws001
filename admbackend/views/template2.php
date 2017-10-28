@@ -56,10 +56,10 @@ desired effect
 -->
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
-<?php
-session_start();
+    <?php
+    session_start();
     include "views/modules/cabezote.php";
-   include "views/modules/botonera.php";
+    include "views/modules/botonera.php";
     ?>
 
 

@@ -8,7 +8,7 @@ $ingreso->ingresoController();
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
-        <p class="login-box-msg">Escriba sus credenciales</p>
+        <p class="login-box-msg">Escriba sus credenciales TESTING</p>
 
         <form method="post" id="formIngreso" onsubmit="return validarIngreso()">
             <div class="form-group has-feedback">
@@ -44,5 +44,3 @@ $ingreso->ingresoController();
     <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->
-
-

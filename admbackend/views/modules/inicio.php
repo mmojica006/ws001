@@ -1,3 +1,10 @@
+<?php
+//session_start();
+//if (!$_SESSION["validar"]){
+//    header ("location:index.php?action=ingreso");
+//    exit();
+//}
+//?>
   <!-- Main content -->
     <section class="content">
       <!-- Small boxes (Stat box) -->

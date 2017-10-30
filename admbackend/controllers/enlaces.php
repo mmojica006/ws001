@@ -1,21 +1,25 @@
 <?php
 
-
 class Enlaces{
-    public function enlacesController(){
 
-        if (isset($_GET["action"])){
+    public function enlacesController()
+    {
+
+        if (isset($_GET["action"])) {
+
             $enlaces = $_GET["action"];
 
-        }else{
-            $enlaces = "index.php";
+        } else {
+
+            $enlaces = "index";
+
         }
 
         $respuesta = EnlacesModels::enlacesModel($enlaces);
 
-
         include $respuesta;
 
     }
+
 
 }

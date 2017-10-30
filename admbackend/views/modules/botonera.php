@@ -1,52 +1,52 @@
-<!-- Left side column. contains the logo and sidebar -->
-<aside class="main-sidebar">
+<!--=====================================
+COLUMNA BOTONERA           
+======================================-->
 
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
+<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12" id="col1">
 
-        <!-- Sidebar user panel (optional) -->
-        <div class="user-panel">
-            <div class="pull-left image">
-                <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-            </div>
-            <div class="pull-left info">
-                <p>Alexander Pierce</p>
-                <!-- Status -->
-                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-            </div>
-        </div>
+    <div id="logo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-        <!-- search form (Optional) -->
-        <form action="#" method="get" class="sidebar-form">
-            <div class="input-group">
-                <input type="text" name="q" class="form-control" placeholder="Search...">
-                <span class="input-group-btn">
-              <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-              </button>
-            </span>
-            </div>
-        </form>
-        <!-- /.search form -->
+        <img src="views/images/logotipo.jpg" class="img-responsive" alt="Image">
 
-        <!-- Sidebar Menu -->
-        <ul class="sidebar-menu" data-widget="tree">
-            <li class="header">HEADER</li>
-            <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-            <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
-            <li class="treeview">
-                <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
-                    <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-                </a>
-                <ul class="treeview-menu">
-                    <li><a href="#">Link in level 2</a></li>
-                    <li><a href="#">Link in level 2</a></li>
-                </ul>
-            </li>
+
+    </div>
+
+    <!--=====================================
+    BOTONERA MOVIL
+    ======================================-->
+
+    <div id="botoneraMovil" class="navbar-header navbar-inverse">
+
+        <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#botonera">
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+        </button>
+
+    </div>
+
+    <!--====  Fin de BOTONERA MOVIL  ====-->
+
+    <nav id="botonera" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse text-center">
+
+        <ul class="nav navbar">
+
+            <li><a href="dashboard">Dashboard <span class="glyphicon glyphicon-new-window"></span></a></li>
+            <li><a href="inicio">Inicio <span class="glyphicon glyphicon-new-window"></span></a></li>
+            <li><a href="slide">Anuncio <span class="glyphicon glyphicon-new-window"></span></a></li>
+            <li><a href="articulos">Quienes Somos? <span class="glyphicon glyphicon-new-window"></span></a></li>
+            <li><a href="galeria">Testimonio <span class="glyphicon glyphicon-new-window"></span></a></li>
+            <li><a href="videos">Servicios <span class="glyphicon glyphicon-new-window"></span></a></li>
+            <li><a href="suscriptores">Tasa de Interés <span class="glyphicon glyphicon-new-window"></span></a></li>
+            <li><a href="suscriptores">Reclutamiento <span class="glyphicon glyphicon-new-window"></span></a></li>
+            <li><a href="suscriptores">Contacto <span class="glyphicon glyphicon-new-window"></span></a></li>
+
         </ul>
-        <!-- /.sidebar-menu -->
-    </section>
-    <!-- /.sidebar -->
-</aside>
+
+    </nav>
+
+</div>
+
+<!--====  FIn de COLUMNA BOTONERA  ====-->
